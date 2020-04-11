@@ -1,7 +1,7 @@
 module.exports = {
   title: 'CustomerOps', // Required
-  author: 'Graham Murphy', // Required
-  description: 'Really important content.',
+  author: 'Customer Operations', // Required
+  description: 'A really great place to learn about neato things!',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
