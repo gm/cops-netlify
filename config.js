@@ -1,7 +1,7 @@
 module.exports = {
   title: 'CustomerOps', // Required
-  author: 'Customer Operations', // Required
-  description: 'A really great place to learn about neato things!',
+  author: 'CustomerOps', // Required
+  description: 'Snippets of knowledge to make your life easie when it comes to interacting with customers.',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
