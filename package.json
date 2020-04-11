@@ -31,7 +31,7 @@
     "react-helmet": "^5.2.0",
     "styled-components": "^4.2.0",
     "styled-normalize": "^8.0.0",
-    "gatsby-plugin-segment-js"
+    "gatsby-plugin-segment-js": "^3.1.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
