@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Blog!
+title: Welcome to the updated Blog!
 date: "2018-07-01"
 featuredImage: './featured.jpg'
 ---
