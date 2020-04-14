@@ -1,5 +1,5 @@
 ---
-title: Let's do some hacky defledtion tracking!
+title: Segment Deflection Tracking
 date: "2020-04-12"
 ---
 
