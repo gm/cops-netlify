@@ -55,4 +55,4 @@ While you're now collecting all this great user activity, you'll need to configu
 
 At this point, we're collecting both the identity of the user visiting your knowledge base, and the pages that they navigate to. Later, we'll discuss the addition of event tracking to futher augment this dataset. 
 
-Oh, and because Zendesk makes it annoying, [here's an example](https://gist.github.com/gm/036914a7434b693569c239a228851c66#file-get_zd_user_id) of how you could get it Zendesk User Id via jquery.
+Oh, and because Zendesk makes it annoying, <a href="https://gist.github.com/gm/036914a7434b693569c239a228851c66#file-get_zd_user_id" target="_blank">here's an example</a> of how you could get it Zendesk User Id via jquery.
