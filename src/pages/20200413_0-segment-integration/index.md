@@ -3,7 +3,7 @@ title: Segment & Zendesk
 date: "2020-04-14"
 ---
 
-When proeprly integrated into your customer support knowledge base, Segment can provide some incredible insight into your customers' self service experience. Here's a quick instegration overview with Zendesk Guide.
+When properly integrated into your customer support knowledge base, [Segment](https://www.segment.com/) can provide some incredible insight into your customers' self service experience. Let's integrate Segment with Zendesk Guide—it only takes a few minutes. 
 
 <!-- end -->
 
