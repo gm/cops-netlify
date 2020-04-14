@@ -54,5 +54,7 @@ console.log(data.user.id);
 }); 
 ```
 
+Once published, you can verity that that you are identifying users in Segment by checking out he debugger in Segment. 
 
 ##The Result
+
