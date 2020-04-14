@@ -3,28 +3,28 @@ title: Segment & Zendesk
 date: "2020-04-14"
 ---
 
-When properly integrated into your customer support knowledge base, Segment can provide some incredible insight into your customers' self service experience. Let's integrate Segment with Zendesk Guide—it only takes a few minutes. 
+When properly integrated into your customer support knowledge base, Segment can provide some incredible insight into your customers' self service experience. Let's integrate Segment with Zendesk Guide—it only takes a few minutes.
 
 <!-- end -->
 
 ---
 An integration with [Segment](https://www.segment.com/) involves throwing a couple snippets of javascript into your Zendesk Guide template. It's straigt forward, but let's take it step by step. 
 
-##Step 1 - Analytics.js
+##Step 1 - Obtain Segment Snippet
 If you haven't, [create a Segment account](https://app.segment.com/signup/). You'll be guided through the process of creating a workspace, and subsequently a project. Once you have a project, you can either follow the tutorial to "Install the Segment snippet on your website", or create a new source—a javascript website, in this case. 
 
 ![Segment Snippet](./segment_snippet.png)
 
 The javascript snippet above is the first things we're going to be adding to your Zendesk Guide template. Copy that snippet to your clip board and proceed to _Step 2_. 
 
-##Step 2 - 
+##Step 2 - Integrate Segment
 In your Zendesk Guide admin panel, navigate to your theme settings (click the eye icon in the left hand navigation), and click "edit code" to open the template editor. 
 
 Select `document_head.hbs` and paste the entirety snippet from _Step 1_ directly under any existing content. 
 
 Once you've published the changes, you've successfully integrated Segment's Analytics.js snippet into your knowledge base! To verify, you can take a peek at the debugger in Segment. You should see Page` events pop up anytime you navigate to a new page in your knowledge base.
 
-##Step 3 - Identify Calls
+##Step 3 - Add Identify Calls
 
 Now that you can "see" when users navigate to new pages in your knowledge base, we need to figure out exactly who that user is (when possible). Segment uses something called an `Identify` call to associate activites with an individual. 
 
