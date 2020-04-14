@@ -22,7 +22,9 @@ In your Zendesk Guide admin panel, navigate to your theme settings (click the ey
 
 Select `document_head.hbs` and paste the entirety snippet from _Step 1_ directly under any existing content. 
 
-Once you've published the changes, you've successfully integrated Segment's Analytics.js snippet into your knowledge base! To verify, you can take a peek at the debugger in Segment. You should see Page` events pop up anytime you navigate to a new page in your knowledge base.
+Once you've published the changes, you've successfully integrated Segment's Analytics.js snippet into your knowledge base! To verify, you can take a peek at the debugger in Segment. You should see `Page` events pop up anytime you navigate to a new page in your knowledge base.
+
+![Segment Page Debug](./segment_page_debug.png)
 
 ##Step 3 - Add Identify Calls
 
@@ -48,6 +50,8 @@ Simply put, the javascript snippet above sends an update to Segment when a page 
 For demonstration purposes, I chose to identify the user by their email, but it would be straight forward to use some other unique data to identiy the user as well (such as the zendesk user id, or an external user id). 
 
 Once published, you can verity that that you are identifying users in Segment by checking out the debugger in Segment. 
+
+![Segment Identify Debug](./segment_identify_debug.png)
 
 ##Discussion
 
