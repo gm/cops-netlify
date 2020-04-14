@@ -3,19 +3,19 @@ title: Segment & Zendesk
 date: "2020-04-14"
 ---
 
-When properly integrated into your customer support knowledge base, Segment can provide some incredible insight into your customers' self service experience. Let's integrate Segment with Zendesk Guide—it only takes a few minutes.
+When properly integrated into your customer support knowledge base, Segment can provide some incredible insight into your customers' self-service experience. Let's integrate Segment with Zendesk Guide—it only takes a few minutes.
 
 <!-- end -->
 
 ---
-An integration with [Segment](https://www.segment.com/) involves throwing a couple snippets of javascript into your Zendesk Guide template. It's straigt forward, but let's take it step by step. 
+An integration with [Segment](https://www.segment.com/) involves throwing a couple snippets of Javascript into your Zendesk Guide template. It's straigt forward, but let's take it step by step. 
 
 ##Step 1 - Obtain Segment Snippet
-If you haven't, [create a Segment account](https://app.segment.com/signup/). You'll be guided through the process of creating a workspace, and subsequently a project. Once you have a project, you can either follow the tutorial to "Install the Segment snippet on your website", or create a new source—a javascript website, in this case. 
+If you haven't, [create a Segment account](https://app.segment.com/signup/). You'll be guided through the process of creating a workspace, and subsequently a project. Once you have a project, you can either follow the tutorial to "Install the Segment snippet on your website", or create a new source—a Javascript website, in this case. 
 
 ![Segment Snippet](./segment_snippet.png)
 
-The javascript snippet above is the first things we're going to be adding to your Zendesk Guide template. Copy that snippet to your clip board and proceed to _Step 2_. 
+The Javascript snippet above is the first things we're going to be adding to your Zendesk Guide template. Copy that snippet to your clipboard and proceed to _Step 2_. 
 
 ##Step 2 - Integrate Segment
 In your Zendesk Guide admin panel, navigate to your theme settings (click the eye icon in the left hand navigation), and click "edit code" to open the template editor. 
@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
 ```
 _Disclaimer: I'm not a software engineer. This works, but I'm certain there are better ways it could be handled._
 
-Simply put, the javascript snippet above sends an update to Segment when a page loads after a user has logged in (at which point, they're no longer anonymous). 
+Simply put, the Javascript snippet above sends an update to Segment when a page loads after a user has logged in (at which point, they're no longer anonymous). 
 
-For demonstration purposes, I chose to identify the user by their email, but it would be straight forward to use some other unique data to identiy the user as well (such as the zendesk user id, or an external user id). 
+For demonstration purposes, I chose to identify the user by their email, but it would be straightforward to use some other unique data to identiy the user as well (such as the Zendesk User ID, or an ID from an external system). 
 
 Once published, you can verity that that you are identifying users in Segment by checking out the debugger in Segment. 
 
@@ -59,4 +59,4 @@ While you're now collecting all this great user activity, you'll need to configu
 
 At this point, we're collecting both the identity of the user visiting your knowledge base, and the pages that they navigate to. Later, we'll discuss the addition of event tracking to futher augment this dataset. 
 
-Oh, and because Zendesk makes it annoying, <a href="https://gist.github.com/gm/036914a7434b693569c239a228851c66#file-get_zd_user_id" target="_blank">here's an example</a> of how you could get it Zendesk User Id via jquery.
+Oh, and because Zendesk makes it annoying, <a href="https://gist.github.com/gm/036914a7434b693569c239a228851c66#file-get_zd_user_id" target="_blank">here's an example</a> of how you could get it Zendesk User ID via JQuery.
