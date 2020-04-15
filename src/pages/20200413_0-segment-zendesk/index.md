@@ -30,7 +30,7 @@ Once you've published the changes, you've successfully integrated Segment's Anal
 
 Now that you can "see" when users navigate to new pages in your knowledge base, we need to figure out exactly who that user is (when possible). Segment uses something called an `Identify` call to associate activities with an individual. 
 
-Navigate back to your Zendesk Guide theme code editor, and past the following into the `script.js` file: 
+Navigate back to your Zendesk Guide theme code editor, and paste the following into the `script.js` file: 
 
 ```
 document.addEventListener("DOMContentLoaded", function() {
