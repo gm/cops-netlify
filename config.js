@@ -1,7 +1,7 @@
 module.exports = {
   title: 'CustomerOps', // Required
   author: 'CustomerOps', // Required
-  description: 'Tidbits of knowledge to make your life easier when it comes to interacting with your customers.',
+  description: 'Slightly technical things that will make you better at interacting with your customers.',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
