@@ -8,7 +8,7 @@ When properly integrated into your customer support knowledge base, Segment can 
 <!-- end -->
 
 ---
-An integration with [Segment](https://www.segment.com/) involves throwing a couple of snippets of Javascript into your Zendesk Guide template, and the configuring a destinations where Segment will ship the data for analysis or automation. It's straight forward, but let's take it step by step. 
+An integration with [Segment](https://www.segment.com/) involves throwing a couple of snippets of Javascript into your Zendesk Guide template, and then configuring destinations where Segment will ship the data for analysis or automation. For now, I'll focus on the integration. It's straight forward, but let's take it step by step. 
 
 ##Step 1 - Obtain Segment Snippet
 If you haven't, [create a Segment account](https://app.segment.com/signup/). You'll be guided through the process of creating a workspace, and subsequently a project. Once you have a project, you can either follow the tutorial to "Install the Segment snippet on your website", or create a new source—a Javascript website, in this case. 
