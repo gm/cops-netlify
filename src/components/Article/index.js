@@ -60,7 +60,7 @@ const Article = styled.article`
   }
 
   hr {
-    margin: 10px 50px;
+    margin: 15px 50px;
   }
 
   blockquote {

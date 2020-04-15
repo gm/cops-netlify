@@ -1,11 +1,16 @@
 ---
-title: Segment Deflection Tracking
-date: "2020-04-12"
+title: Article Rating Events
+date: "2020-04-15"
 ---
 
-Okay, so, in thoery this is an excerpt! Let's talk a bit about how we can use your existing Segment instance to do some hacky deflection tracking. 
+Article ratings are a great indication of whether or not your knowledge base articles are deflecting case submissions. Let's explicitly monitor for article ratings on both a generalized, and user specific basis.
 
 <!-- end -->
 
-Sed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.
+Assuming you've gone through the process of integrating a tool like Segment into your help center, the process of tracking article ratings is easy. 
 
+There are manual ways to listen for clicks on a given element of a page that will do exactly what we're doing via a GUI in this exercise, but that's worthy of it's own series of posts. 
+
+## Visual Tagging Tool
+
+... to be contiued
