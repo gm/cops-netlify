@@ -94,6 +94,8 @@ const Article = styled.article`
 
   img {
     margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #f0f1f3;
   }
 `;
 
