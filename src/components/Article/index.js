@@ -59,6 +59,10 @@ const Article = styled.article`
     margin: 15px 50px;
   }
 
+  hr {
+    margin: 10px 50px;
+  }
+
   blockquote {
     border-left: 5px solid #e0e6ed;
     line-height: 1.7;
