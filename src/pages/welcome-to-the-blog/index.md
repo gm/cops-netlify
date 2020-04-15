@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Updated Blog!
+title: This is a filler blog post!
 date: "2018-07-01"
 featuredImage: './featured.jpg'
 ---
