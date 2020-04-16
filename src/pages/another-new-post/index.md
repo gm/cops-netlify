@@ -1,6 +1,6 @@
 ---
 title: Demo Post
-date: "2018-06-29"
+date: "2020-06-29"
 featuredImage: ./traintrack.jpg
 ---
 
