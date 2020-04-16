@@ -1,5 +1,5 @@
 ---
-title: Tracking Article Ratings [DRAFT]
+title: Tracking Article Ratings
 date: "2020-04-15"
 ---
 
