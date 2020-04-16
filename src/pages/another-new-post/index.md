@@ -1,8 +1,11 @@
 ---
-title: Demo Post
-date: "2020-06-29"
+title: Featured Image Bug Post
+date: "2018-06-29"
 featuredImage: ./traintrack.jpg
 ---
+This is really only here because the gatsby build will fail if at least one post to have a featuredImage. I'll have to debug this later, but I'd bet I can just change they query in the config.
+
+<!-- end -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. Fusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. 
 
