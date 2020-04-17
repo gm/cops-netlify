@@ -3,7 +3,7 @@ title: Featured Image Bug Post
 date: "2018-06-29"
 featuredImage: ./traintrack.jpg
 ---
-<tater options = '{name: 'your-element-1', space: 30}'>
+
 This is really only here because the gatsby build will fail if at least one post to have a featuredImage. I'll have to debug this later, but I'd bet I can just change they query in the config.
 
 <!-- end -->
@@ -15,4 +15,3 @@ Etiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet a
 ![Train Tracks](./traintrack.jpg)
 
 Nullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis.
-</tater>

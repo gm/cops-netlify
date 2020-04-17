@@ -2,6 +2,7 @@ import {graphql} from 'gatsby';
 import Helmet from 'react-helmet';
 import get from 'lodash/get';
 import React from 'react';
+import Tater from 'react-tater';
 
 import userConfig from '../../config';
 
@@ -15,6 +16,11 @@ import Container from '../components/Container';
 import FeaturedImage from '../components/FeaturedImage';
 import PageNav from '../components/PageNav';
 import Share from '../components/Share';
+
+const taterOptions = {
+  name: 'your-element-1', // The namespace used for local storage
+  space: 30 // The size, in pixels, of the grid and emojis
+};
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -51,7 +57,9 @@ class BlogPostTemplate extends React.Component {
               <span />
             </ArticleHeader>
             <Article>
+            <Tater options={taterOptions}>
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            </Tater>
             </Article>
             {userConfig.showShareButtons && (
               <Share url={url} title={post.frontmatter.title} />
