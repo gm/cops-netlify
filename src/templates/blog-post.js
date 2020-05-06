@@ -57,9 +57,9 @@ class BlogPostTemplate extends React.Component {
               <span />
             </ArticleHeader>
             <Article>
-            <Tater options={taterOptions}>
+            
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </Tater>
+            
             </Article>
             {userConfig.showShareButtons && (
               <Share url={url} title={post.frontmatter.title} />
