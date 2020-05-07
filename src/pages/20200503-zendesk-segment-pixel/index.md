@@ -1,6 +1,6 @@
 ---
 title: [Draft] Support Email Tracking
-date: "2018-05-03"
+date: "2020-05-03"
 ---
 
 Curious to know if your customers are actually reading the emails you're sending them? Tracking pixels are commmonly used in marketing—and they're easy enough to implement in a support context as well. 
