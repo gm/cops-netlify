@@ -1,5 +1,5 @@
 ---
-title: [Draft] Support Email Tracking
+title: Draft - Support Email Tracking
 date: "2020-05-03"
 ---
 
